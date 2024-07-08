@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="98" height="105" viewBox="0 0 38 38">
+  <defs>
+    <clipPath id="clip-Login_Button">
+      <rect width="38" height="38"/>
+    </clipPath>
+  </defs>
+  <g id="Login_Button" data-name="Login Button" clip-path="url(#clip-Login_Button)">
+    <g id="Group_15744" data-name="Group 15744" transform="translate(-628.396 -488)">
+      <g id="Group_14529" data-name="Group 14529">
+        <path id="Path_14572" data-name="Path 14572" d="M180.809,86.4l0,0-6.777-9.754h-6.193l6.428,9.759-6.428,9.76h6.193l6.789-9.747h0Z" transform="translate(477.686 420.94)" fill="#fa4d4f"/>
+        <path id="Path_14575" data-name="Path 14575" d="M180.809,86.4l0,0-6.777-9.754h-6.193l6.428,9.759-6.428,9.76h6.193l6.789-9.747h0Z" transform="translate(468.686 420.94)" fill="#fc9469"/>
+        <path id="Path_14573" data-name="Path 14573" d="M167.835,99.98l6.428-9.76,6.555.012-6.79,9.748Z" transform="translate(477.686 417.12)" fill="#fa4d4f"/>
+        <path id="Path_14574" data-name="Path 14574" d="M167.835,99.98l6.428-9.76,6.555.012-6.79,9.748Z" transform="translate(468.686 417.12)" fill="#fc7a45"/>
+      </g>
+    </g>
+  </g>
+</svg>

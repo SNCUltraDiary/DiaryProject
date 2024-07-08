@@ -1,0 +1,126 @@
+
+    <section class="d-flex flex-column align-items-start p-3 filterViewer-rectangle">
+        <section class="d-flex flex-column align-items-start">
+            <!-- First Section: Dropdowns -->
+            <span class="view-text">View</span>
+            <div class="custom-dropdown">
+                <select class="custom-select">
+                    <option value="en">Month</option>
+                    <option value="fr">Week</option>
+                    <option value="ar">Day</option>
+                </select>
+                <div class="dropdown-arrow"></div>
+            </div>
+
+            <!-- Second Dropdown -->
+            <span class="view-text">Type</span>
+            <div class="custom-dropdown">
+                <select class="custom-select">
+                    <option value="option1">Normal View</option>
+                    <option value="option2">Expand View</option>
+                    <option value="option3">Compact View</option>
+                </select>
+                <div class="dropdown-arrow"></div>
+            </div>
+
+            <!-- Third Dropdown -->
+            <span class="view-text">Venue</span>
+            <div class="custom-dropdown">
+                <select class="custom-select">
+                    <option value="sort1">All</option>
+                    <option value="sort2">Sort 2</option>
+                    <option value="sort3">Sort 3</option>
+                </select>
+                <div class="dropdown-arrow"></div>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- Second Section: Placeholder Content -->
+            <!-- <div class="checkbox-list"> -->
+                <!-- <div class="checkbox-item">
+                    <input type="checkbox" id="checkbox1" class="checkbox">
+                    <label for="checkbox1" class="checkbox-label">
+                        <span class="checkbox-custom"></span> Confirmed
+                    </label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="checkbox2" class="checkbox">
+                    <label for="checkbox2" class="checkbox-label">
+                        <span class="checkbox-custom waitlisted"></span> Waitlisted
+                    </label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="checkbox3" class="checkbox">
+                    <label for="checkbox3" class="checkbox-label">
+                        <span class="checkbox-custom provisional"></span> Provisional
+                    </label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="checkbox4" class="checkbox">
+                    <label for="checkbox4" class="checkbox-label">
+                        <span class="checkbox-custom enquiry"></span> Enquiry
+                    </label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="checkbox5" class="checkbox">
+                    <label for="checkbox5" class="checkbox-label">
+                        <span class="checkbox-custom blocked"></span> Blocked
+                    </label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="checkbox6" class="checkbox">
+                    <label for="checkbox6" class="checkbox-label">
+                        <span class="checkbox-custom restricted"></span> Restricted
+                    </label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="checkbox7" class="checkbox">
+                    <label for="checkbox7" class="checkbox-label">
+                        <span class="checkbox-custom cancelled"></span> Cancelled
+                    </label>
+                </div> -->
+            <!-- </div> -->
+            <div class="checkbox-list">
+                <label class="checkbox-container confirmed">Confirmed
+                    <input type="checkbox" checked>
+                    <span class="checkmark" style="background-color: #BFEBDC;"></span>
+                </label>
+                <label class="checkbox-container waitlisted">Waitlisted
+                    <input type="checkbox">
+                    <span class="checkmark" style="background-color: #FFE4B1;"></span>
+                </label>
+                <label class="checkbox-container provisional">Provisional
+                    <input type="checkbox">
+                    <span class="checkmark" style="background-color: #DCD7E8;"></span>
+                </label>
+                <label class="checkbox-container enquiry">Enquiry
+                    <input type="checkbox">
+                    <span class="checkmark" style="background-color: #D5E7FF;"></span>
+                </label>
+                <label class="checkbox-container blocked">Blocked
+                    <input type="checkbox">
+                    <span class="checkmark" style="background-color: #E2E2E2;"></span>
+                </label>
+                <label class="checkbox-container restricted">Restricted
+                    <input type="checkbox">
+                    <span class="checkmark" style="background-color: #F9E4D2;"></span>
+                </label>
+                <label class="checkbox-container cancelled">Cancelled
+                    <input type="checkbox">
+                    <span class="checkmark" style="background-color: #FFCCCC;"></span>
+                </label>
+            </div>
+            
+              
+
+            <div class="divider"></div>
+            <div class="calendar-wrapper">
+                <!-- <mat-calendar #calendar [(selected)]="selectedDate"></mat-calendar> -->
+                <mat-card style="width: 240px; height: auto;">
+                    <mat-calendar [(selected)]="selected" #calendar (selectedChange)="onDateChange($event)"></mat-calendar>
+                  </mat-card>
+                <button class="apply-button" mat-raised-button >Apply</button>
+              </div>
+           </section>
+    </section>

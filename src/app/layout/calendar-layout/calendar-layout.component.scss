@@ -1,0 +1,21 @@
+/* hourly-table-view.component.scss */
+
+/* Override default MatTable styles */
+.mat-table {
+  width: 100%; /* Ensure table takes full width */
+}
+
+/* Apply Bootstrap table class */
+.table {
+  border-collapse: collapse; /* Ensure borders collapse properly */
+}
+
+/* Apply Bootstrap striped rows */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #FFFFFF; /* Default background color */
+}
+
+/* Apply Bootstrap hover effect */
+.table-hover tbody tr:hover {
+  background-color: #F7F7F8; /* Hover background color */
+}

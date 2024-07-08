@@ -1,0 +1,19 @@
+<div style="border: 1px solid #BCBCBC;height: 1026px;">
+    <div class="table table-striped table-hover">
+        <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+          <ng-container matColumnDef="timeSlot">
+            <mat-header-cell *matHeaderCellDef> </mat-header-cell>
+            <mat-cell *matCellDef="let row"> {{ row.timeSlot }} </mat-cell>
+          </ng-container>
+      
+          <ng-container matColumnDef="event">
+            <mat-header-cell *matHeaderCellDef> Mon Jan 16 2024 </mat-header-cell>
+            <mat-cell *matCellDef="let row"> {{ row.event }} </mat-cell>
+          </ng-container>
+      
+          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+        </mat-table>
+      </div>
+      
+</div>

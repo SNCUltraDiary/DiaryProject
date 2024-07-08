@@ -1,0 +1,109 @@
+// body, html {
+//     margin: 0;
+//     padding: 0;
+//     overflow: hidden; 
+// }
+
+// .full-height-div {
+//     display: flex; /* Ensure it's a flex container */
+//     align-items: center; /* Center content vertically */
+//     border: none; /* Adjust border as needed */
+//     height: 83px;
+// }
+
+// .container {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     height: 100%;
+//     padding: 0 16px; /* Adjust padding as needed */
+// }
+
+// .left-section {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .icon-calendar {
+//     width: 22px;
+//     height: 24px;
+//     margin-right: 10px;
+// }
+
+// .text-left {
+//     text-align: center;
+//     font: normal normal medium 28px/33px Niveau Grotesk;
+//     letter-spacing: 0px;
+//     color: #000000;
+//     opacity: 1;
+//     margin: 0; /* Remove default margin */
+// }
+
+// .right-section {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .icon-search, .icon-more {
+//     margin-right: auto; /* Push icons to the right */
+// }
+// .icon-search img, .icon-more img {
+//     width: 24px; /* Adjust icon size as needed */
+//     height: 24px;
+// }
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.full-height-div {
+    align-items: center;
+    //display: flex; /* Ensure it's a flex container */ 
+    border: none; /* Adjust border as needed */
+    height: 83px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 16px; /* Adjust padding as needed */
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.icon-calendar {
+    width: 22px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.text-left {
+    text-align: center;
+    font-size: 28px;
+    font: normal normal medium 28px/33px Niveau Grotesk;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 0; /* Remove default margin */
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+        height: 100%; /* Ensure full height alignment */
+
+}
+
+.icon-search, .icon-more {
+    margin-right: auto; /* Push icons to the right */
+}
+.icon-search img, .icon-more img {
+    width: 24px; /* Adjust icon size as needed */
+    height: 24px;
+}

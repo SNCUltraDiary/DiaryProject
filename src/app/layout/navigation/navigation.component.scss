@@ -1,0 +1,76 @@
+.navigation-rectangle {
+    height: 105px;
+    width: 100%;
+    // background: #FFFFFF 0% 0% no-repeat padding-box;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 3px #cbcbcb!important;
+}
+
+.navigation-button {
+    width: 98px;
+    height: 105px;
+}
+
+.header-container h2 {
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.field-label {
+    text-align: right;
+    font: normal normal normal 14px/10px Roboto;
+    letter-spacing: 0px;
+    color: #A3A3A3;
+}
+
+.field-welcome {
+    text-align: right;
+    font: normal normal normal 18px/11px Niveau Grotesk;
+    letter-spacing: 0px;
+    color: #5B5B5B;
+    opacity: 1;
+}
+
+.field-loggedIn {
+    text-align: right;
+    font: normal normal normal 13px/11px Niveau Grotesk;
+    letter-spacing: 0px;
+    color: #5B5B5B;
+    opacity: 1;
+}
+
+.user-image-container {
+    border: 3px solid #FC7A45;
+    border-radius: 50%;
+    width: 62px;
+    height: 61px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-arrow-container {
+    position: relative;
+    width: 19px;
+    height: 11px;
+    border: #FC7A45;
+}
+
+.field-value {
+    text-align: right;
+    font: normal normal medium 14px/10px Roboto;
+    letter-spacing: 0px;
+    color: #5B5B5B;
+    font-size: 14px;
+}
+
+.side-button {
+    min-width: 123px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* This will prevent scroll bars */
+}

@@ -1,0 +1,102 @@
+// .custom-dropdown {
+//     position: absolute;
+//     top: 233px;
+//     left: 26px;
+//     width: 236px;
+//     height: 42px;
+//     background: #FFFFFF;
+//     border: 1px solid #D3D3D3;
+//     border-radius: 9px;
+//     opacity: 1;
+// }
+// /* styles.css or styles.scss */
+// .setup-form-field {
+   
+//     width: 70%;
+//     margin-top: 20px; /* Example margin for spacing */
+// }
+// /* styles.css or styles.scss */
+// .full-height-div {
+//     border: 1px solid red;
+//     width: 293px;
+//     height: 1026px;
+//   }
+ 
+//   /* styles.css or filtration.component.css */
+// .full-height-div {
+//     border: 1px solid red;
+//     width: 293px;
+//     height: 1026px;
+//   }
+  
+//   .setup-form-field {
+//     width: 100%; /* Ensures the form field fills its container */
+//   }
+  
+  
+// .mat-form-field-appearance-outline .mat-form-field-outline {
+//     top: 0px;
+//     left: 0px;
+//     width: 236px;
+//     height: 42px;
+//     background: #FFFFFF 0% 0% no-repeat padding-box;
+//     border: 1px solid #D3D3D3;
+//     border-radius: 9px;
+//     opacity: 1;
+//   }
+
+// .view-text {
+//     margin-bottom: 1.01px;
+// }
+// body, html {
+//     margin: 0;
+//     padding: 0;
+//     overflow: hidden; /* This will prevent scroll bars */
+// }
+// .mat-mdc-select-arrow svg {
+//     fill: #D3D3D3;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+// }
+// /* Dropdown Arrow Styles */
+// .mat-mdc-form-field.mat-focused .mat-mdc-select-arrow {
+//     color: #D3D3D3;
+// }
+.full-height-div {
+    border-right: #707070;
+    width: 293px;
+    height: 83px;
+  }
+  
+.filter-rectangle {
+  margin-inline: 1rem;
+  width: 293px;
+  height: 83px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center; /* Vertically center items */
+}
+
+.filter-icon {
+  margin-right: 10px; /* Adjust margin as needed */
+  margin-left: 31px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Vertically center items */
+}
+
+.header-container h2 {
+  font-size: 24px;
+  white-space: nowrap;
+  text-align: center;
+  font: normal normal medium 24px/28px Niveau Grotesk;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
